@@ -1,0 +1,68 @@
+baseURL = "https://3kva.github.io/"
+languageCode = "en-us"
+title = "Beyond Borders"
+theme = "anubis"
+paginate = 10
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "Ely"
+
+[params]
+author = "Ely"
+description = "To find freedom and hope beyond borders."
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+
+# Graphcomment support
+graphcommentId = ""
+
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
+
+[[params.social]]
+id = "docs"
+url = "https://www.douban.com/people/74656370/"
+
+[[params.social]]
+id = "patreon"
+url = "https://patreon.com/ely572"
+
+
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "archive"
+identifier = "archive"
+url = "/posts/"
+weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
